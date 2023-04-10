@@ -18,8 +18,8 @@ const Statistics = () => {
                 <h1 className='text-center md:text-3xl text-2xl font-semibold'>Statistics</h1>
             </div>
             <div>
-            <div class="grid md:grid-cols-3 grid-cols-1 gap-4 bg-white">
-  <div class="p-4"></div>
+            <div className="grid md:grid-cols-3 grid-cols-1 gap-4 bg-white">
+  <div className="p-4"></div>
   <div className="hidden md:block p-4 chart-container">
   <ComposedChart
     width={600}
@@ -39,7 +39,7 @@ const Statistics = () => {
 
 <div className="md:hidden p-4 chart-container">
   <ComposedChart
-    width={350}
+    width={320}
     height={300}
     data={data}
     margin={{ top: 20, right:0, bottom: 20, left: 0 }}
@@ -48,18 +48,19 @@ const Statistics = () => {
     <XAxis dataKey="subject" />
     <YAxis />
     <Tooltip />
-    <Bar dataKey="mark" barSize={20} fill="#413ea0" />
+    <Bar dataKey="mark" barSize={15} fill="#413ea0" />
     <Line type="monotone" dataKey="mark" stroke="#ff7300" />
   </ComposedChart>
 </div>
 
   {/* on mobile  */}
-  <div class=" p-4"></div>
+  <div className=" p-4"></div>
 </div>
 
             </div>    
-   
+
         </div>
+      
         
     );
 };

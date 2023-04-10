@@ -3,7 +3,8 @@ import bannerImage from '../../assets/banner-image.png'
 import JobCategory from '../JobCategory/JobCategory';
 const Banner = () => {
     return (
-        <div className='md:w-9/12 mx-auto'>
+        <div>
+            <div className='md:w-9/12 mx-auto'>
             <div className="grid grid-cols-1 items-center md:grid-cols-5 gap-4">
                 <div className="col-span-3 md:col-span-3 p-4">
                     <h1 className="md:text-7xl text-4xl text-center md:text-start font-bold mb-2 md:leading-tight leading-tight md:mb-5">One Step Closer To Your Dream Job</h1>
@@ -15,6 +16,8 @@ const Banner = () => {
                 </div>
             </div>
             <JobCategory/>
+        </div>
+   
         </div>
     );
 };
