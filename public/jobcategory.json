@@ -1,24 +1,28 @@
 [
     {
+        "id":1,
         "image_url":"/src/assets/Icons/accounts 1.png",
         "job_title": "Account & Finance",
-        "total_job": "300 Jobs Available"
+        "total_job": "300+ Jobs Available"
       },
       {
+        "id":2,
         "image_url":"/src/assets/Icons/business 1.png",
         "job_title": "Creative Design",
-        "total_job": "100 Jobs Available"
+        "total_job": "100+ Jobs Available"
       },
       {
+        "id":3,
         "image_url":"/src/assets/Icons/social-media 1.png",
         "job_title": "Marketing & Sales",
-        "total_job": "400 Jobs Available"
+        "total_job": "400+ Jobs Available"
       },
       {
+        "id":4,
         "image_url":"/src/assets/Icons/chip 1.png",
         "job_title": "Engineering Job",
-        "total_job": "40 Jobs Available"
+        "total_job": "40+ Jobs Available"
       }
-      
+       
          
 ]
