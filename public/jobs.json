@@ -1,0 +1,102 @@
+[
+    {
+        "id": "1234",
+        "Company_Logo": "/src/assets/Logo/google-1-1 1-1.png",
+        "Job_title": "Software Engineer",
+        "Company_Name": "Example Inc.",
+        "Job_Type": "Full-time",
+        "Location": "San Francisco",
+        "Salary": "$120,000 - $150,000",
+        "Job_Description": "We are looking for an experienced software engineer to join our team and help us build scalable web applications.",
+        "Job_Responsibility": "Design, develop, and maintain web applications using modern technologies.",
+        "Educational_Requirements": "Bachelor's degree in Computer Science or a related field.",
+        "Experiences": "5+ years of experience in software development.",
+        "Phone": "415-123-4567",
+        "Email": "jobs@example.com",
+        "Address": "123 Main St, San Francisco, CA"
+    },
+    {
+        "id": "5678",
+        "Company_Logo": "/src/assets/Logo/netflix-4 1.png",
+        "Job_title": "Graphic Designer",
+        "Company_Name": "Example Design Studio",
+        "Job_Type": "Part-time",
+        "Location": "New York City",
+        "Salary": "$30 - $50 per hour",
+        "Job_Description": "We are seeking a talented graphic designer to join our team and help us create visually stunning designs for our clients.",
+        "Job_Responsibility": "Create designs for print and digital media, including brochures, websites, and social media.",
+        "Educational_Requirements": "Associate's or Bachelor's degree in Graphic Design or a related field.",
+        "Experiences": "2+ years of experience in graphic design.",
+        "Phone": "212-555-1234",
+        "Email": "designjobs@example.com",
+        "Address": "456 Broadway, New York, NY"
+    },
+    {
+        "id": "9012",
+        "Company_Logo": "/src/assets/Logo/google-1-1 1.png",
+        "Job_title": "Customer Support Representative",
+        "Company_Name": "Example Corp",
+        "Job_Type": "Remote",
+        "Location": "Dhaka",
+        "Salary": "$40,000 - $50,000",
+        "Job_Description": "We are looking for a customer support representative to join our team and help us provide outstanding customer service to our clients.",
+        "Job_Responsibility": "Answer customer inquiries via email, phone, and chat. Resolve customer issues in a timely and professional manner.",
+        "Educational_Requirements": "High school diploma or equivalent.",
+        "Experiences": "1+ years of experience in customer service.",
+        "Phone": "555-555-5555",
+        "Email": "supportjobs@example.com",
+        "Address": ""
+    },
+    {
+        "id": "7890",
+        "Company_Logo": "/src/assets/Logo/tesla-9 1.png",
+        "Job_title": "Social Media Specialist",
+        "Company_Name": "Example Marketing Agency",
+        "Job_Type": "Part-time",
+        "Location": "Chicago",
+        "Salary": "$20 - $25 per hour",
+        "Job_Description": "We are seeking a social media specialist to help us manage our clients' social media accounts and campaigns.",
+        "Job_Responsibility": "Create and publish social media content, monitor social media accounts, and analyze social media metrics.",
+        "Educational_Requirements": "Associate's or Bachelor's degree in Marketing, Communications, or a related field.",
+        "Experiences": "2+ years of experience in social media marketing.",
+        "Phone": "312-555-6789",
+        "Email": "socialmediajobs@example.com",
+        "Address": "123 State St, Chicago, IL"
+    },
+    {
+        "id": "2468",
+        "Company_Logo": "/src/assets/Logo/netflix-4 1.png",
+        "Job_title": "Data Analyst",
+        "Company_Name": "Example Analytics Company",
+        "Job_Type": "Full-time",
+        "Location": "Seattle",
+        "Salary": "$70,000 - $90,000",
+        "Job_Description": "We are seeking a data analyst to help us analyze data and provide insights to our clients.",
+        "Job_Responsibility": "Extract and analyze data from various sources, create visualizations and reports, and communicate findings to clients.",
+        "Educational_Requirements": "Bachelor's or Master's degree in Data Science, Statistics, or a related field.",
+        "Experiences": "3+ years of experience in data analysis.",
+        "Phone": "206-555-1234",
+        "Email": "datajobs@example.com",
+        "Address": "789 Main St, Seattle, WA"
+    },
+    {
+        "id": "1357",
+        "Company_Logo": "/src/assets/Logo/netflix-4 1.png",
+        "Job_title": "Sales Representative",
+        "Company_Name": "Example Sales Company",
+        "Job_Type": "Full-time",
+        "Location": "Miami",
+        "Salary": "$60,000 - $80,000",
+        "Job_Description": "We are seeking a sales representative to help us increase our sales and grow our business.",
+        "Job_Responsibility": "Develop and maintain relationships with customers, identify and pursue new sales opportunities, and meet sales targets.",
+        "Educational_Requirements": "Bachelor's degree in Business Administration, Marketing, or a related field.",
+        "Experiences": "3+ years of experience in sales.",
+        "Phone": "305-555-5678",
+        "Email": "salesjobs@example.com",
+        "Address": "456 Ocean Dr, Miami Beach, FL"
+    }
+    
+    
+    
+    
+]  

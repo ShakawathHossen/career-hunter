@@ -12,6 +12,7 @@ import AppliedJob from './Compoments/AppliedJobs/AppliedJob';
 import Home from './Compoments/Home/Home';
 import Banner from './Compoments/Banner/Banner';
 import ErrorPage from './Compoments/ErrorPage/ErrorPage';
+import Jobs from './Compoments/Jobs/Jobs';
 
 const router = createBrowserRouter([
   {
@@ -21,7 +22,9 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <Banner/>
+        element: <Banner/>,
+        loader:()=>fetch('/jobs.json')
+        
       },
       {
         path: "statistics",

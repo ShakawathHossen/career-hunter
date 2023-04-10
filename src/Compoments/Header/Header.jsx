@@ -19,7 +19,7 @@ const Header = () => {
                 <Link to="/blog"><li>Blog</li></Link>
               </ul>
             </div>
-            <a className="btn btn-ghost normal-case md:text-3xl text-xl">Career Hunter</a>
+            <a className="md:text-3xl text-xl font-bold text-sky-600">Career Hunter</a>
           </div>
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-1 font-semibold md:text-xl">
@@ -31,7 +31,7 @@ const Header = () => {
             </ul>
           </div>
           <div className="navbar-end">
-            <a className="btn btn-primary capitalize">Start Applying</a>
+            <a className= "px-3 py-2 rounded-md text-white font-semibold bg-sky-600 hover:bg-sky-700 capitalize">Start Applying</a>
           </div>
         </div>
    </div>
