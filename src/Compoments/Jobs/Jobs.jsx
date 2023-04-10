@@ -1,10 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useLoaderData } from 'react-router-dom';
 import SingleJob from '../SingleJob/SingleJob';
 
 const Jobs = () => {
     const jobs=useLoaderData();
-    console.log(jobs);
+    const [showAllJobs, setShowAllJobs] = useState(false);
+    const handleSeeAllJobsClick = () => {
+        setShowAllJobs(true);
+    };
+    const displayedJobs = showAllJobs ? jobs : jobs.slice(0, 4);
     return (
         <div className='mb-10 md:w-full w-11/12 mx-auto'>
             <div className='md:my-24'>
@@ -13,14 +17,14 @@ const Jobs = () => {
             </div>
                <div className='grid grid-cols-1 md:grid-cols-2 md:gap-x-16 md:gap-y-10 gap-8 mx-auto mb-10'>
                {
-                    jobs.map(job => <SingleJob 
+                    displayedJobs.map(job => <SingleJob 
                         key={job.id}
                         job={job}
                     ></SingleJob>)
                 }
                </div>
                <div className='text-center'>
-                <button className="bg-sky-600 hover:bg-sky-700 text-white px-3 py-2 rounded-md my-4 text-center">See All Jobs</button>
+               {!showAllJobs && <button className="bg-sky-600 hover:bg-sky-700 text-white px-3 py-2 rounded-md my-4 text-center" onClick={handleSeeAllJobsClick}>See All Jobs</button>}
                </div>
         </div>
     );

@@ -32,7 +32,7 @@ const Statistics = () => {
     <YAxis />
     <Tooltip />
     <Legend />
-    <Bar dataKey="mark" barSize={20} fill="#413ea0" />
+    <Bar dataKey="mark" barSize={20} fill="#0369A1" />
     <Line type="monotone" dataKey="mark" stroke="#ff7300" />
   </ComposedChart>
 </div>
@@ -48,7 +48,7 @@ const Statistics = () => {
     <XAxis dataKey="subject" />
     <YAxis />
     <Tooltip />
-    <Bar dataKey="mark" barSize={15} fill="#413ea0" />
+    <Bar dataKey="mark" barSize={15} fill="#0369A1" />
     <Line type="monotone" dataKey="mark" stroke="#ff7300" />
   </ComposedChart>
 </div>
