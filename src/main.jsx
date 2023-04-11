@@ -13,6 +13,7 @@ import Home from './Compoments/Home/Home';
 import Banner from './Compoments/Banner/Banner';
 import ErrorPage from './Compoments/ErrorPage/ErrorPage';
 import Jobs from './Compoments/Jobs/Jobs';
+import JobDetails from './Compoments/JobDetails/JobDetails';
 
 const router = createBrowserRouter([
   {
@@ -25,6 +26,11 @@ const router = createBrowserRouter([
         element: <Banner/>,
         loader:()=>fetch('/jobs.json')
         
+      },
+      {
+        path: "/:id",
+        element: <JobDetails/>,
+        loader:()=>fetch('/jobs.json')
       },
       {
         path: "statistics",

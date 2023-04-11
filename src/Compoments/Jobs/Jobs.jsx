@@ -9,7 +9,7 @@ const Jobs = () => {
         setShowAllJobs(true);
     };
     const displayedJobs = showAllJobs ? jobs : jobs.slice(0, 4);
-    return (
+    return ( 
         <div className='mb-10 md:w-full w-11/12 mx-auto'>
             <div className='md:my-24'>
                 <h1 className='md:text-5xl text-4xl text-center font-bold mb-2 md:leading-tight leading-tight md:mb-5'>Featured Jobs</h1>
