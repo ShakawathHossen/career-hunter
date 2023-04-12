@@ -7,5 +7,4 @@ ul li{
 ul li:Hover{
     color:rgb(7, 126, 173);
     transition: .5s;
-    text-decoration: line-through;
 }
