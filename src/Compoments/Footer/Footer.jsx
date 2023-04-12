@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="md:col-span-1">
           <h2 className="text-lg font-medium text-white mb-4">Career Hunter</h2>
           <p className="text-gray-400 mb-4">Career Hunter" is a concise term that encapsulates the act of actively seeking out and pursuing career opportunities with vigor and determination. </p>
-          <img src='../../../src/assets/Icons/Group 9969.png' className='mx-auto md:mx-0' />
+          <img src='https://i.ibb.co/zHv0kMw/Group-9969.png' className='mx-auto md:mx-0' />
         </div>
         <div className="md:col-span-1 ">
           <h2 className="text-lg font-medium text-white mb-4">Company</h2>

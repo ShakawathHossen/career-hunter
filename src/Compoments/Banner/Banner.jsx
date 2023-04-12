@@ -1,5 +1,4 @@
 import React from 'react';
-import bannerImage from '../../assets/banner-image.png'
 import JobCategory from '../JobCategory/JobCategory';
 import Jobs from '../Jobs/Jobs';
 const Banner = () => {
@@ -13,7 +12,7 @@ const Banner = () => {
                     <button className="bg-sky-600 hover:bg-sky-700 text-white font-bold py-2 px-4 rounded">Get Started</button>
                 </div>
                 <div className="col-span-2 md:col-span-2">
-                    <img src={bannerImage} alt="Image" className="" />
+                    <img src="https://i.ibb.co/6nQxJsZ/banner-image.png" alt="Image" className="" />
                 </div>
             </div>
             <JobCategory/>

@@ -1,7 +1,7 @@
 [
     {
         "id": "1234",
-        "Company_Logo": "/src/assets/Logo/google-1-1 1-1.png",
+        "Company_Logo": "https://i.ibb.co/4ZWY6Xc/netflix-4-1.png",
         "Job_title": "Software Engineer",
         "Company_Name": "Example Inc.",
         "Job_Type": "Full-time",
@@ -17,7 +17,7 @@
     },
     {
         "id": "5678",
-        "Company_Logo": "/src/assets/Logo/netflix-4 1.png",
+        "Company_Logo": "https://i.ibb.co/dfG6012/Microsoft-logo-2012-svg.png",
         "Job_title": "Graphic Designer",
         "Company_Name": "Example Design Studio",
         "Job_Type": "Part-time",
@@ -33,10 +33,10 @@
     },
     {
         "id": "9012",
-        "Company_Logo": "/src/assets/Logo/google-1-1 1.png",
+        "Company_Logo": "https://i.ibb.co/vmxsJ52/Twitter-Logo-2010.png",
         "Job_title": "Customer Support Representative",
         "Company_Name": "Example Corp",
-        "Job_Type": "Remote",
+        "Job_Type": "Full-time",
         "Location": "Dhaka",
         "Salary": "$40,000 - $50,000",
         "Job_Description": "We are looking for a customer support representative to join our team and help us provide outstanding customer service to our clients.",
@@ -49,7 +49,7 @@
     },
     {
         "id": "7890",
-        "Company_Logo": "/src/assets/Logo/tesla-9 1.png",
+        "Company_Logo": "https://i.ibb.co/hdVDyNp/Amazon-logo-svg.png",
         "Job_title": "Social Media Specialist",
         "Company_Name": "Example Marketing Agency",
         "Job_Type": "Part-time",
@@ -65,7 +65,7 @@
     },
     {
         "id": "2468",
-        "Company_Logo": "/src/assets/Logo/netflix-4 1.png",
+        "Company_Logo": "https://i.ibb.co/jV5M88G/800px-EBay-logo-svg.png",
         "Job_title": "Data Analyst",
         "Company_Name": "Example Analytics Company",
         "Job_Type": "Full-time",
@@ -81,7 +81,7 @@
     },
     {
         "id": "1357",
-        "Company_Logo": "/src/assets/Logo/netflix-4 1.png",
+        "Company_Logo": "https://i.ibb.co/DDfBQQQ/google-1-1-1.png",
         "Job_title": "Sales Representative",
         "Company_Name": "Example Sales Company",
         "Job_Type": "Full-time",

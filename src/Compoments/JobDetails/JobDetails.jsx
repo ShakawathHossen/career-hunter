@@ -13,13 +13,20 @@ const JobDetails = () => {
     const handleApplyNow = (job) => {
         // Get existing applied jobs from local storage or create an empty array if it does not exist
         const appliedJobs = JSON.parse(localStorage.getItem("appliedJobs")) || [];
-
-        // Add the current job to the applied jobs array
-        appliedJobs.push(job);
-
-        // Save the updated applied jobs array to local storage
-        localStorage.setItem("appliedJobs", JSON.stringify(appliedJobs));
-        alert('Added job')
+    
+        // Check if the current job is already in the applied jobs array
+        const jobAlreadyApplied = appliedJobs.some((j) => j.id === job.id);
+    
+        if (jobAlreadyApplied) {
+            alert("You have already applied for this job.");
+        } else {
+            // Add the current job to the applied jobs array
+            appliedJobs.push(job);
+    
+            // Save the updated applied jobs array to local storage
+            localStorage.setItem("appliedJobs", JSON.stringify(appliedJobs));
+            alert("The job has been added.");
+        }
     };
 
     return (
